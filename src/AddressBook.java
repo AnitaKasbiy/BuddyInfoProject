@@ -18,7 +18,9 @@ public class AddressBook {
 
     public void setBuddies(ArrayList<BuddyInfo> buddies) {
         this.buddies = buddies;
+        System.out.println("hello");
     }
+
 
     public static void main(String[] args) {
         System.out.println("Address Book");
